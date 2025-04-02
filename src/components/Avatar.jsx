@@ -92,7 +92,7 @@ export function Avatar() {
     setAudioUrl('');
     setError('');
     try {
-      const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://klaris.my.id/backend2';
+      const backendUrl = import.meta.env.VITE_BACKEND_URL || 'https://klaris.my.id/backend2';
       const result = await axios.post(`${backendUrl}/api/query`, { query });
       const answer = result.data.answer || 'Answer not available.';
       addToConversation('assistant', answer);
