@@ -181,7 +181,7 @@ const ChatBox = ({ conversation, onSendMessage, isListening, toggleListening, lo
         }
         
         .send-btn {
-          width: 36px;
+      
           height: 36px;
           margin-left: 8px;
           background-color: rgba(52, 152, 219, 0.8);
@@ -205,7 +205,7 @@ const ChatBox = ({ conversation, onSendMessage, isListening, toggleListening, lo
         }
         
         .mic-btn {
-          width: 36px;
+      
           height: 36px;
           margin-left: 8px;
           background-color: rgba(75, 75, 75, 0.8);
